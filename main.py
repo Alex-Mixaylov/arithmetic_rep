@@ -1,4 +1,6 @@
+# полный код с функцией деления
 # main.py
+
 import arithmetic as ar
 
 # Тестирование функций из модуля arithmetic
@@ -10,4 +12,7 @@ print("Вычитание:", ar.subtract(a, b))
 print("Умножение:", ar.multiply(a, b))
 print("Деление:", ar.divide(a, b))
 
+
+# Проверим деление на ноль
+print("Проверка деления на ноль:", ar.divide(a, 0))
 
